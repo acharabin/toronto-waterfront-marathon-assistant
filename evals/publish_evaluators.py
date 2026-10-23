@@ -24,7 +24,7 @@ from evals.evaluators import (
     make_response_groundedness_prompt,
     make_retrieval_relevance_prompt,
 )
-from my_agent.config import load_project_config
+from marathon_assistant.config import load_project_config
 
 
 load_dotenv(PROJECT_ROOT / ".env", override=False)

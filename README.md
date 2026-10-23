@@ -21,7 +21,7 @@ For more detail on the design choices, tradeoffs, and risks, see [Key decisions 
 
 ```text
 main.py                         CLI entry point
-my_agent/                       Agent package
+marathon_assistant/             Agent package
   agent.py                      Agent construction and resource loading
   cli.py                        Interactive terminal loop
   config.py                     Shared TOML configuration loader
@@ -44,7 +44,7 @@ config.toml                     Shared paths, URLs, and scraper settings
 1. Install dependencies with `uv sync`.
 2. Copy `.env.example` to `.env` in the project root and add your OpenAI and LangSmith credentials.
 3. Install Playwright's Chromium browser with `uv run playwright install chromium`.
-4. Start the CLI with `uv run main.py` or `uv run python -m my_agent`.
+4. Start the CLI with `uv run main.py` or `uv run python -m marathon_assistant`.
 
 File paths, service URLs, and scraper options are configured in `config.toml`. Relative paths resolve from the project root. Keep credentials in `.env`.
 

@@ -1,7 +1,7 @@
 [paths]
 runner_results = "assets/processed_stats.pq"
 raw_results = "assets/raw_stats.txt"
-agent_instructions = "my_agent/utils/instructions.md"
+agent_instructions = "marathon_assistant/utils/instructions.md"
 
 [scraper]
 apply_truncate_file = true

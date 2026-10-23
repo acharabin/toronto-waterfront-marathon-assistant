@@ -7,7 +7,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from my_agent.config import load_project_config, resolve_project_path
+from marathon_assistant.config import load_project_config, resolve_project_path
 
 PROJECT_CONFIG = load_project_config()
 output_file = resolve_project_path(PROJECT_CONFIG["paths"]["raw_results"])
