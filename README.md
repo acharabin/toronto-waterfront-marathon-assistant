@@ -15,6 +15,8 @@ The agent routes each question through one of two workflows:
 
 The workflow diagram, including safety screening before search and scrape results enter chat history, is in [diagrams/architecture.md](diagrams/architecture.md).
 
+For more detail on the design choices, tradeoffs, and risks, see [Key decisions and tradeoffs](#key-decisions-and-tradeoffs).
+
 ## Project layout
 
 ```text
