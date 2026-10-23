@@ -1,5 +1,7 @@
 # Agent Architecture
 
+For a left-to-right layout, see [architecture-left-to-right.md](architecture-left-to-right.md).
+
 ```mermaid
 flowchart TD
     U[User question] --> IN[OpenAI moderation checks input]
